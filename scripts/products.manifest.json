@@ -1,0 +1,273 @@
+[
+  {
+    "slug": "diavolo",
+    "name": "Diavolo",
+    "image": "/products/diavolo.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Salam picant",
+      "Ceapa rosie",
+      "Civas"
+    ],
+    "weight": "460g",
+    "px": "1600x1067",
+    "kb": 318
+  },
+  {
+    "slug": "diavolo-gorgonzola",
+    "name": "Diavolo Gorgonzola",
+    "image": "/products/diavolo-gorgonzola.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Salam picant",
+      "Ceapa rosie",
+      "Gorgonzola"
+    ],
+    "weight": "500g",
+    "px": "1600x1067",
+    "kb": 309
+  },
+  {
+    "slug": "quatro-stagioni",
+    "name": "Quatro Stagioni",
+    "image": "/products/quatro-stagioni.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Salam pizza",
+      "Sunca praga",
+      "Ciuperci",
+      "Kapia",
+      "Masline"
+    ],
+    "weight": "520g",
+    "px": "1600x1067",
+    "kb": 320
+  },
+  {
+    "slug": "chicken",
+    "name": "Chicken",
+    "image": "/products/chicken.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Piept de pui (pastrama)",
+      "Ciuperci",
+      "Kapia",
+      "Masline",
+      "Porumb"
+    ],
+    "weight": "570g",
+    "px": "1600x1067",
+    "kb": 283
+  },
+  {
+    "slug": "margherita",
+    "name": "Margherita",
+    "image": "/products/margherita.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Busuioc",
+      "Rosii"
+    ],
+    "weight": "430g",
+    "px": "1600x1067",
+    "kb": 319
+  },
+  {
+    "slug": "quattro-formaggi",
+    "name": "Quattro Formaggi",
+    "image": "/products/quattro-formaggi.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Gorgonzola",
+      "Brie",
+      "Parmezan"
+    ],
+    "weight": "510g",
+    "px": "1600x1067",
+    "kb": 262
+  },
+  {
+    "slug": "bufolla",
+    "name": "Bufolla",
+    "image": "/products/bufolla.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Mozzarela bilute",
+      "Rosii",
+      "Busuioc frunze",
+      "Sos pesto"
+    ],
+    "weight": "500g",
+    "px": "1600x1067",
+    "kb": 296
+  },
+  {
+    "slug": "quattro-formaggi-picanta",
+    "name": "Quattro Formaggi Picanta",
+    "image": "/products/quattro-formaggi-picanta.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Gorgonzola",
+      "Brie",
+      "Parmezan",
+      "Rosii",
+      "Salam picant"
+    ],
+    "weight": "580g",
+    "px": "1600x1066",
+    "kb": 411
+  },
+  {
+    "slug": "prosciutto-crudo",
+    "name": "Prosciutto Crudo",
+    "image": "/products/prosciutto-crudo.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Prosciutto crudo",
+      "Rucola",
+      "Rosii",
+      "Parmezan"
+    ],
+    "weight": "540g",
+    "px": "1600x1067",
+    "kb": 305
+  },
+  {
+    "slug": "mortadella",
+    "name": "Mortadella",
+    "image": "/products/mortadella.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Rucola",
+      "Mortadela",
+      "Rosii",
+      "Parmezan"
+    ],
+    "weight": "540g",
+    "px": "1600x1067",
+    "kb": 279
+  },
+  {
+    "slug": "ton",
+    "name": "Ton",
+    "image": "/products/ton.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Ton",
+      "ceapa rosie",
+      "Porumb"
+    ],
+    "weight": "560g",
+    "px": "1600x1067",
+    "kb": 295
+  },
+  {
+    "slug": "vegetala",
+    "name": "Vegetala",
+    "image": "/products/vegetala.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Ciuperci",
+      "Porumb",
+      "Masline",
+      "Ceapa rosie",
+      "Kapia",
+      "Dovlecei",
+      "Guacamole"
+    ],
+    "weight": "500g",
+    "px": "1600x1067",
+    "kb": 285
+  },
+  {
+    "slug": "premium",
+    "name": "Premium",
+    "image": "/products/premium.jpg",
+    "ingredients": [
+      "Aluat",
+      "Sos pizza",
+      "Mozzarela",
+      "Sunca",
+      "Salam",
+      "Carnati",
+      "Ciuperci",
+      "Rosii",
+      "Masline",
+      "Kapia"
+    ],
+    "weight": "600g",
+    "px": "1600x1067",
+    "kb": 406
+  },
+  {
+    "slug": "sarmale-cu-mamaliguta",
+    "name": "Sarmale cu Mamaliguta",
+    "image": "/products/sarmale-cu-mamaliguta.jpg",
+    "ingredients": [
+      "-Mamaliguta",
+      "Apa",
+      "Malai",
+      "Ulei",
+      "Sare",
+      "-Sarmale",
+      "Varza",
+      "Ceapa",
+      "Orez",
+      "Carne",
+      "Untura",
+      "Marar",
+      "Sare",
+      "Piper macinat",
+      "Cimbru",
+      "Bulion",
+      "Boia"
+    ],
+    "weight": "400g",
+    "px": "1600x1067",
+    "kb": 299
+  },
+  {
+    "slug": "sarmale",
+    "name": "Sarmale",
+    "image": "/products/sarmale.jpg",
+    "ingredients": [
+      "Varza",
+      "Ceapa",
+      "Orez",
+      "Carne",
+      "Untura",
+      "Marar",
+      "Sare",
+      "Piper macinat",
+      "Cimbru",
+      "Bulion",
+      "Boia"
+    ],
+    "weight": "50g/bucata",
+    "px": "1600x1067",
+    "kb": 241
+  }
+]

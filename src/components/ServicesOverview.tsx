@@ -30,16 +30,24 @@ export function ServicesOverview({ onService }: { onService?: (slug: string) => 
               {group.services.map((s) => (
                 <button
                   key={s.slug}
-                  className="card service-card service-card--btn"
+                  className={`card service-card service-card--btn${s.image ? ' service-card--photo' : ''}`}
                   onClick={() => onService?.(s.slug)}
                   type="button"
                 >
-                  <div className="icon" aria-hidden>{s.icon}</div>
+                  {s.image ? (
+                    <img className="service-card__img" src={s.image} alt={s.title} loading="lazy" />
+                  ) : (
+                    <div className="icon" aria-hidden>{s.icon}</div>
+                  )}
                   <h4>
                     {s.title}
+                    {s.weight && <span className="svc-weight">{s.weight}</span>}
                     {STATUS_LABEL[s.status] && <span className="tag-soon">{STATUS_LABEL[s.status]}</span>}
                   </h4>
                   <p>{s.text}</p>
+                  {s.ingredients && (
+                    <p className="svc-ingredients">{s.ingredients.join(' · ')}</p>
+                  )}
                   <span className="link">Comandă →</span>
                 </button>
               ))}

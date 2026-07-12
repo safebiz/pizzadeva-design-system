@@ -88,6 +88,21 @@ a:hover { color: var(--color-brand-hover); }
 .service-card p { color: var(--color-text-muted); margin-bottom: var(--space-4); }
 .service-card .link { font-weight: var(--fw-semibold); }
 
+/* Photo menu cards (poze reale produs) */
+.service-card__img {
+  display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover;
+  border-radius: var(--radius-md); margin-bottom: var(--space-4);
+}
+.svc-weight {
+  font-size: 0.72rem; font-weight: var(--fw-semibold); letter-spacing: 0.02em;
+  color: var(--color-brand); background: var(--color-accent-light);
+  padding: 2px 8px; border-radius: var(--radius-pill);
+}
+.svc-ingredients {
+  font-size: var(--fs-small); color: var(--color-text-muted);
+  opacity: 0.9; margin-top: calc(-1 * var(--space-2));
+}
+
 .grid { display: grid; gap: var(--space-6); }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
 .grid--2 { grid-template-columns: repeat(2, 1fr); }
