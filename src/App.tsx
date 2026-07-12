@@ -6,7 +6,6 @@ import { Card } from './components/Card'
 import { Badge } from './components/Badge'
 import { Button } from './components/Button'
 import { ServicesOverview } from './components/ServicesOverview'
-import { PricingPlans } from './components/PricingPlans'
 import { AuditLanding } from './components/AuditLanding'
 import { FAQ } from './components/FAQ'
 import { Testimonials } from './components/Testimonials'
@@ -43,20 +42,17 @@ export function App() {
       {/* Meniu — grupat pe categorii */}
       <ServicesOverview />
 
-      {/* Livrare gratuită (flagship) */}
+      {/* Comandă online (flagship) */}
       <section className="section">
         <div className="container">
           <Card style={{ textAlign: 'center', background: 'var(--gradient-hero)', border: 'none', color: '#fff' }}>
-            <Badge variant="success">Fără cost de livrare</Badge>
+            <Badge variant="success">Comandă online</Badge>
             <h2 style={{ color: '#fff', marginTop: '1rem' }}>{flagship.title}</h2>
             <p style={{ maxWidth: 620, margin: '0 auto 1.5rem', color: 'rgba(255,255,255,0.88)' }}>{flagship.text}</p>
-            <Button variant="on-dark" href="/comanda">Comandă acum</Button>
+            <Button variant="on-dark" href="/comenzi">Comandă acum</Button>
           </Card>
         </div>
       </section>
-
-      {/* Combo-uri & meniuri */}
-      <PricingPlans />
 
       {/* Oferta săptămânii */}
       <AuditLanding />
@@ -84,9 +80,9 @@ export function App() {
           <Card style={{ textAlign: 'center', background: 'var(--color-cream)', border: 'none' }}>
             <h2>Ți-e foame? Comandă acum 🍕</h2>
             <p style={{ maxWidth: 560, margin: '0 auto 1.5rem' }}>
-              Pizza proaspătă, livrată gratuit în Deva, în 60 de minute. La un click distanță.
+              Pizza proaspătă, livrată în Deva în maximum 60 de minute. La un click distanță.
             </p>
-            <Button href="/comanda">Comandă acum</Button>
+            <Button href="/comenzi">Comandă acum</Button>
           </Card>
         </div>
       </section>

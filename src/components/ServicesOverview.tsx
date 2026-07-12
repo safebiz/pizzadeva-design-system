@@ -48,7 +48,10 @@ export function ServicesOverview({ onService }: { onService?: (slug: string) => 
                   {s.ingredients && (
                     <p className="svc-ingredients">{s.ingredients.join(' · ')}</p>
                   )}
-                  <span className="link">Comandă →</span>
+                  <div className="svc-foot">
+                    {s.price && <span className="svc-price">{s.price}</span>}
+                    <span className="link">Comandă →</span>
+                  </div>
                 </button>
               ))}
             </div>

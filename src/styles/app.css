@@ -102,6 +102,15 @@ a:hover { color: var(--color-brand-hover); }
   font-size: var(--fs-small); color: var(--color-text-muted);
   opacity: 0.9; margin-top: calc(-1 * var(--space-2));
 }
+.svc-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--space-4); margin-top: auto; padding-top: var(--space-2);
+}
+.svc-price {
+  font-family: var(--font-heading); font-weight: var(--fw-bold);
+  font-size: 1.15rem; color: var(--color-brand);
+}
+.service-card--btn { display: flex; flex-direction: column; }
 
 .grid { display: grid; gap: var(--space-6); }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
