@@ -1,0 +1,128 @@
+<!-- @dsCard group="Website" viewport="1280x2400" name="pizza-deva.ro — homepage" subtitle="Pagina completă: hero, meniu, combo-uri, oferta, email, footer" -->
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="styles.css" />
+<style> body { margin: 0; } </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img class="header__logo" src="logo/logo-color.png" alt="Pizza Deva" />
+    <nav class="header__nav">
+      <a href="#meniu">Meniu</a>
+      <a href="#combo">Combo-uri</a>
+      <a href="#despre">Despre</a>
+      <a href="#">Contact</a>
+      <a class="btn btn--primary" href="#">Comandă acum</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1>Pizza livrată la ușa ta</h1>
+      <p class="hero__lead">Pizza proaspătă, preparată cu pasiune și ingrediente proaspete. Livrare gratuită în Deva, în 60 de minute.</p>
+      <div style="display:flex;gap:1rem;flex-wrap:wrap">
+        <a class="btn btn--on-dark" href="#">Comandă acum</a>
+        <a class="btn btn--secondary" href="#meniu">Vezi meniul</a>
+      </div>
+      <p class="hero__tagline">Pizza cu suflet din Deva.</p>
+    </div>
+  </section>
+
+  <!-- Promises -->
+  <section class="section--alt" style="padding:1.25rem 0">
+    <div class="container promises">
+      <div class="promise"><span class="promise__icon">🚚</span><span>Livrare gratuită în Deva</span></div>
+      <div class="promise"><span class="promise__icon">⏱️</span><span>În 60 de minute</span></div>
+      <div class="promise"><span class="promise__icon">👨‍🍳</span><span>Preparată manual zilnic</span></div>
+      <div class="promise"><span class="promise__icon">🥬</span><span>Ingrediente proaspete</span></div>
+    </div>
+  </section>
+
+  <!-- Meniu -->
+  <section id="meniu" class="section">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Meniu</span><h2>Meniul nostru</h2><p>Pizza proaspătă, preparată manual în fiecare zi. Alege-ți preferata.</p></div>
+      <div class="svc-group">
+        <div class="svc-group__head"><h3>Pizza clasică</h3><p>Rețetele care nu dau greș niciodată.</p></div>
+        <div class="grid grid--3">
+          <div class="card service-card"><div class="icon">🍕</div><h4>Margherita</h4><p>Sos de roșii, mozzarella și busuioc proaspăt.</p><span class="link">Comandă →</span></div>
+          <div class="card service-card"><div class="icon">🍕</div><h4>Prosciutto</h4><p>Șuncă, mozzarella și sos de roșii — clasicul iubit de toți.</p><span class="link">Comandă →</span></div>
+          <div class="card service-card"><div class="icon">🧀</div><h4>Quattro Formaggi</h4><p>Patru brânzeturi topite perfect, pentru pofticioși.</p><span class="link">Comandă →</span></div>
+        </div>
+      </div>
+      <div class="svc-group">
+        <div class="svc-group__head"><h3>Pizza specială</h3><p>Pentru cei care vor ceva cu caracter.</p></div>
+        <div class="grid grid--3">
+          <div class="card service-card"><div class="icon">🌶️</div><h4>Diavola</h4><p>Salam picant, ardei iute și mozzarella topită.</p><span class="link">Comandă →</span></div>
+          <div class="card service-card"><div class="icon">🍕</div><h4>Capricciosa</h4><p>Șuncă, ciuperci, măsline și anghinare.</p><span class="link">Comandă →</span></div>
+          <div class="card service-card"><div class="icon">🍕</div><h4>Quattro Stagioni</h4><p>Cele patru anotimpuri, fiecare sfert cu gustul lui.</p><span class="link">Comandă →</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flagship -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="card" style="text-align:center;background:var(--gradient-hero);border:none;color:#fff">
+        <span class="badge badge--success">Fără cost de livrare</span>
+        <h2 style="color:#fff;margin-top:1rem">Livrare gratuită în toată Deva</h2>
+        <p style="max-width:620px;margin:0 auto 1.5rem;color:rgba(255,255,255,0.88)">Comanzi de pe pizza-deva.ro sau la telefon, iar noi îți aducem pizza caldă la ușă în 60 de minute — fără cost de livrare.</p>
+        <a class="btn btn--on-dark" href="#">Comandă acum</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Combo -->
+  <section id="combo" class="section">
+    <div class="container">
+      <div class="section-heading"><span class="eyebrow">Combo-uri</span><h2>Combo-uri &amp; Meniuri</h2><p>Alege comboul potrivit — de la o persoană la toată gașca.</p></div>
+      <div class="grid grid--3 pricing">
+        <div class="card plan"><h3 class="plan__name">Meniu Solo</h3><p class="plan__tagline">Perfect pentru o persoană.</p><div class="plan__price"><span class="plan__amount">39</span><span class="plan__unit">RON / comandă</span></div><ul class="plan__features"><li>1 pizza la alegere</li><li>1 băutură</li><li>Livrare gratuită</li></ul><a class="btn btn--secondary" href="#">Comandă Meniu Solo</a></div>
+        <div class="card plan plan--highlight"><div class="plan__ribbon"><span class="badge badge--success">Cel mai comandat</span></div><h3 class="plan__name">Meniu Familie</h3><p class="plan__tagline">Pentru toată familia.</p><div class="plan__price"><span class="plan__amount">119</span><span class="plan__unit">RON / comandă</span></div><ul class="plan__features"><li>3 pizza la alegere</li><li>1 garnitură</li><li>2 băuturi</li></ul><a class="btn btn--primary" href="#">Comandă Meniu Familie</a></div>
+        <div class="card plan"><h3 class="plan__name">Meniu Party</h3><p class="plan__tagline">Pentru grupuri și petreceri.</p><div class="plan__price"><span class="plan__amount">199</span><span class="plan__unit">RON / comandă</span></div><ul class="plan__features"><li>5 pizza la alegere</li><li>2 garnituri</li><li>Băuturi pentru grup</li></ul><a class="btn btn--secondary" href="#">Comandă Meniu Party</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Oferta -->
+  <section class="section audit">
+    <div class="container audit__grid">
+      <div class="audit__copy">
+        <span class="eyebrow">Oferta săptămânii</span>
+        <h2>Marți = Pizza Zi 🍕</h2>
+        <p class="audit__lead">Comandă 2 pizza preferate și primești o limonadă cadou. Valabil marțea, până la ora 21:00.</p>
+        <a class="btn btn--primary" href="#">Comandă oferta</a>
+      </div>
+      <div class="card audit__card">
+        <h3>Ce include oferta</h3>
+        <ul class="checklist">
+          <li><span class="checklist__mark">✓</span>2 pizza la alegere din meniu</li>
+          <li><span class="checklist__mark">✓</span>1 limonadă cadou</li>
+          <li><span class="checklist__mark">✓</span>Livrare gratuită în Deva</li>
+          <li><span class="checklist__mark">✓</span>Livrată caldă, în 60 de minute</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <img class="footer__logo" src="logo/logo-white.png" alt="Pizza Deva" />
+        <p class="footer__motto">Pizza proaspătă, livrată în 60 de minute.</p>
+        <p style="max-width:320px;font-size:.9rem">Str. Împăratul Traian 34, Deva · 0722 807 994<br/>Luni–Sâmbătă 10:00–21:00</p>
+      </div>
+      <div><h4>Meniu</h4><div><a href="#">Pizza clasică</a></div><div><a href="#">Pizza specială</a></div><div><a href="#">Combo &amp; Meniuri</a></div></div>
+      <div><h4>Info</h4><div><a href="#">Comandă online</a></div><div><a href="#">Livrare și retur</a></div><div><a href="#">Termeni și condiții</a></div></div>
+    </div>
+    <div class="container footer__bottom">© 2026 Pizza Deva · Deva</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!-- @dsCard group="Components" viewport="860x520" name="Componente — butoane, badge, card meniu, combo" subtitle="Butoane pill, badge-uri, card produs, card combo" -->
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="../styles.css" />
+<style>
+  body { margin: 0; font-family: var(--font-body); background: var(--color-bg); padding: var(--space-8); }
+  .stack { display: flex; flex-direction: column; gap: var(--space-8); }
+  .rowc { display: flex; gap: var(--space-4); flex-wrap: wrap; align-items: center; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-6); }
+</style>
+</head>
+<body>
+  <div class="stack">
+    <div class="rowc">
+      <a class="btn btn--primary" href="#">Comandă acum</a>
+      <a class="btn btn--secondary" href="#">Vezi meniul</a>
+      <span class="badge">Nou</span>
+      <span class="badge badge--success">Ofertă</span>
+    </div>
+    <div class="two">
+      <article class="card service-card">
+        <div class="icon" aria-hidden>🍕</div>
+        <h4>Diavola</h4>
+        <p>Salam picant, ardei iute și mozzarella topită. Pentru iubitorii de picant.</p>
+        <span class="link">Comandă →</span>
+      </article>
+      <div class="card plan plan--highlight">
+        <div class="plan__ribbon"><span class="badge badge--success">Cel mai comandat</span></div>
+        <h3 class="plan__name">Meniu Familie</h3>
+        <p class="plan__tagline">Pentru toată familia.</p>
+        <div class="plan__price"><span class="plan__amount">119</span><span class="plan__unit">RON / comandă</span></div>
+        <ul class="plan__features"><li>3 pizza la alegere</li><li>1 garnitură</li><li>Livrare gratuită</li></ul>
+        <a class="btn btn--primary" href="#">Comandă Meniu Familie</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
