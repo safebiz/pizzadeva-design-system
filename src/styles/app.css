@@ -167,11 +167,11 @@ a:hover { color: var(--color-brand-hover); }
 .header__panel { display: none; padding: 0 var(--container-edge) var(--space-4); }
 .header__panel[data-open='true'] { display: block; }
 .header__nav { display: grid; gap: var(--space-1); }
-.header__nav a {
+.header__nav a:not(.btn) {
   display: flex; align-items: center; min-height: var(--tap-min);
   color: var(--color-ink); font-weight: var(--fw-semibold);
 }
-.header__nav a:hover { color: var(--color-brand); }
+.header__nav a:not(.btn):hover { color: var(--color-brand); }
 .header__nav .btn { margin-top: var(--space-3); }
 
 @media (min-width: 900px) {
