@@ -13,7 +13,7 @@ export function PricingPlans() {
         <SectionHeading
           eyebrow="Combo-uri"
           title="Combo-uri & Meniuri"
-          subtitle="Alege comboul potrivit — de la o persoană la toată gașca. Livrare gratuită inclusă."
+          subtitle="Alege comboul potrivit — de la o persoană la toată gașca."
         />
         <div className="grid grid--3 pricing">
           {plans.map((p) => (

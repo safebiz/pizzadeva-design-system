@@ -134,21 +134,27 @@ export const plans: Plan[] = []
 export const plansNote =
   'Pizza Deva nu are momentan meniuri combo. Componenta rămâne pentru viitoare campanii.'
 
-/* ---- Oferta săptămânii (TEMPLATE de promo — folosit de AuditLanding) ----
-   Exemplu de campanie; nu e o ofertă activă confirmată. */
+/* ---- Oferta activă (REALĂ — folosită de AuditLanding) -------------------
+   Ofertele CONFIRMATE de client (14 iul 2026, sursă:
+   projects/pizzadeva/branding/social-post-deschidere.md):
+   (1) o doză de Pepsi GRATUIT la fiecare pizza (campania de deschidere);
+   (2) −5% reducere PERMANENTĂ pentru clienții cu cont pe pizza-deva.ro.
+   NU inventa alte oferte aici — tot ce scrie în blocul ăsta ajunge în
+   designuri generate și poate fi luat drept promisiune reală. Dacă oferta
+   de deschidere expiră, actualizează textul, nu-l lăsa să mintă. */
 export const auditLanding = {
-  eyebrow: 'Oferta săptămânii',
-  headline: 'Marți = Pizza Zi 🍕',
+  eyebrow: 'Oferta de deschidere',
+  headline: 'Pepsi cadou la fiecare pizza 🥤',
   subtext:
-    'Comandă 2 pizza preferate și primești o limonadă cadou. Valabil marțea, până la ora 21:00 — nu lăsa oferta să expire.',
+    'Sărbătorim deschiderea: la fiecare pizza comandată primești o doză de Pepsi gratuit. Iar cu cont pe pizza-deva.ro ai −5% reducere permanentă la toate comenzile.',
   checklistTitle: 'Ce include oferta',
   checklist: [
-    '2 pizza la alegere din meniu',
-    '1 limonadă cadou',
-    'Comandă rapidă online',
+    '1 doză de Pepsi gratuit la fiecare pizza comandată',
+    '−5% permanent pentru clienții cu cont pe pizza-deva.ro',
+    'Comandă online sau telefonic la 0723 861 994',
     'Livrată caldă, în maximum 60 de minute',
   ],
-  cta: 'Comandă oferta',
+  cta: 'Comandă acum',
 }
 
 /* ---- FAQ (food) -------------------------------------------------------- */
@@ -171,22 +177,22 @@ export const testimonials = [
   { name: '(Nume client — de completat)', role: 'Client Deva', quote: '(Recenzie reală din Google/Facebook — de completat înainte de publicare.)' },
 ]
 
-/* ---- Email marketing template (mockup de brand) ------------------------ */
+/* ---- Email marketing template (mockup de brand, ofertă REALĂ) ---------- */
 export const emailTemplate = {
-  subject: '🍕 Marți = Pizza Zi la Pizza Deva',
-  preheader: '2 pizza + o limonadă cadou, azi până la ora 21:00.',
-  eyebrow: 'Oferta săptămânii',
-  headline: 'Marți = Pizza Zi 🍕',
+  subject: '🍕 Pepsi cadou la fiecare pizza — Pizza Deva',
+  preheader: 'Oferta de deschidere: o doză de Pepsi gratuit la fiecare pizza comandată.',
+  eyebrow: 'Oferta de deschidere',
+  headline: 'Pepsi cadou la fiecare pizza 🥤',
   greeting: 'Salut,',
   body: [
-    'Astăzi te răsfățăm: comandă 2 dintre pizzele tale preferate și primești o limonadă cadou.',
+    'Sărbătorim deschiderea: la fiecare pizza comandată primești o doză de Pepsi gratuit. Iar dacă îți faci cont pe pizza-deva.ro, ai −5% reducere permanentă la toate comenzile.',
   ],
   bullets: [
-    '2 pizza la alegere din meniu',
-    '1 limonadă cadou',
+    '1 doză de Pepsi gratuit la fiecare pizza',
+    '−5% permanent pentru clienții cu cont pe pizza-deva.ro',
     'Comandă rapidă online, livrată caldă în maximum 60 de minute',
   ],
-  closing: 'Valabil azi, până la ora 21:00. Nu lăsa oferta să expire 😉',
+  closing: 'Comandă pe pizza-deva.ro sau telefonic la 0723 861 994.',
   cta: 'Comandă acum',
   signature: 'Echipa Pizza Deva',
   footerAddress: 'Pizza Deva · Str. Împăratul Traian 34, Deva · 0723 861 994',
